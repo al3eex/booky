@@ -6,12 +6,12 @@ this script to enter bookmarks data in a simple format.
 
 ## Dependencies
 
-* bash
-* python3
-* pdftk
-* dirname
-* basename
-* GNU sed (OSX users take note, you may have BSD sed. Install `gsed` instead)
+* `bash`
+* `python3`
+* `pdftk`
+* `dirname`
+* `basename`
+* `GNU sed` (OSX users take note, you may have BSD sed. Install `gsed` instead)
 
 ## Bookmark format
 
@@ -20,11 +20,11 @@ this script to enter bookmarks data in a simple format.
 * Both title and page number should be on the same line.
 * All these are equivalent (i.e. the script is whitespace agnostic).
 
-```plain
-title1, 1
-title1,             1
-      title1     ,         1
-```
+  ```plain
+  title1, 1
+  title1,             1
+        title1     ,         1
+  ```
 
 ### Example
 
